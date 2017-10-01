@@ -51,7 +51,10 @@ def feed_fish
 end
 
 def sell_pets
-  self.pets.each {|type, pets| pets.empty? == true }
+  self.pets.each do |type, pets| 
+    pets.each do |pet| pet.mood = "nervous"
+    end
+  end 
 end
 
 end
