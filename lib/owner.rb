@@ -24,7 +24,7 @@ class Owner
     "I am a #{@species}."
   end
 
-  def name(name)
+  def name=(name)
     self.name = name
   end
 end
