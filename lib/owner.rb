@@ -39,7 +39,7 @@ def buy_dog(name)
 end
 
 def self.walk_dogs
-  
+
 end
 
 end
