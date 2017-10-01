@@ -9,7 +9,7 @@ class Owner
     @species = species
     @pets = {:fishes=>[], :dogs=>[], :cats=>[]}
   end
-  
+
   def self.all
     @@all
   end
@@ -27,7 +27,7 @@ class Owner
   end
 
 def buy_fish(fish)
-  
+
 end
 
 end
