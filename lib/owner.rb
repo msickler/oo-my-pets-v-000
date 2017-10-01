@@ -20,7 +20,7 @@ class Owner
     @@all.count
   end
 
-  def say_species
+  def species
     @species
   end
 end
