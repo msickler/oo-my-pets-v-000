@@ -6,6 +6,6 @@ class Owner
     @owner = owner
   end
   def self.all
-    @@owners << owner
+    @@owners 
   end
 end
