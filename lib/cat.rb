@@ -4,5 +4,5 @@ class Cat
  def initialize
    @name = name.freeze
  end
-  
+
 end
