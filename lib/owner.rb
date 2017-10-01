@@ -51,6 +51,7 @@ def feed_fish
 end
 
 def sell_pets
+  self.pets.each {|type, pets| pets.empty? }
 end
 
 end
