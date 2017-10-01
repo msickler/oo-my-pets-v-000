@@ -1,9 +1,10 @@
 class Cat
- attr_accessor :name
+ attr_accessor :mood
+ attr_reader :name
 
- def initialize
+ def initialize(name, mood = "nervous")
   @name = name
-   @mood = "nervous"
+   @mood = mood
  end
 
 end
